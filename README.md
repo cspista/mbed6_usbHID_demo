@@ -3,7 +3,8 @@
 Tested by: **Keil Studio** 1.50 and **Mbed-OS** 6.16.0
 
 USBHID example from the Mbed Os documentation
-Reference: https://os.mbed.com/docs/mbed-os/v6.15/apis/usbhid.html
+
+**Reference:** https://os.mbed.com/docs/mbed-os/v6.15/apis/usbhid.html
  
 The program simply sends reports of 8 random bytes and accepts 8 byte
 messages from the PC as well. After each package received the state 
