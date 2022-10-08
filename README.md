@@ -122,5 +122,6 @@ the script three times.
 
 The packges arriving from the PC are simply printed out 
 on the console.
+
 ![](./images/usbhid_demo_console.png)
 
