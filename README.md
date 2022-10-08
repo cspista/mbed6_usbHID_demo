@@ -4,24 +4,21 @@ Tested by: **Keil Studio** 1.50 and **Mbed-OS** 6.16.0
 
 USBHID example from the Mbed Os documentation
 
-**Reference:** https://os.mbed.com/docs/mbed-os/v6.15/apis/usbhid.html
+**Reference:** [https://os.mbed.com/docs/mbed-os/v6.15/apis/usbhid.html](https://os.mbed.com/docs/mbed-os/v6.15/apis/usbhid.html) 
  
 The program simply sends reports of 8 random bytes and accepts 8 byte
 messages from the PC as well. After each package received the state 
 of the builtin LED is toggled.
 
-## Note:
-The first parameter of the constructor of the USBHID class should 
+## Notes:
+1. The first parameter of the constructor of the USBHID class should 
 be a  **true** value (note that the order of parameter was different 
 in earlier Mbed OS versions)
 
 
-This program requires an application on the PC side as well.
+2. This program requires an application on the PC side as well.
 Please, find the USBHID.py Python example application  at the link above 
 the (the pywinusb Python module should be installaed as well)
-
-### Reference: 
-[USBHID example](https://os.mbed.com/docs/mbed-os/v6.15/apis/usbhid.html) (Mbed official example)
 
 ## Hardware requirements
 * NUCLEO-F446RE development board
