@@ -69,7 +69,7 @@ Finally the **mbed_app.json** sholuld look like this:
     }
 }
 ```
-## mbed6_usbDID_demo results
+## mbed6_usbHID_demo results
 Open a terminal window for the serial port of the target MCU through 
 the ST-Link v2-1. The default baudrate is 9600 bps. 
 Open a Command shell (CMD) and run the Pathyon script below
@@ -122,7 +122,7 @@ the script three times.
 
 ![](./images/usbhid_demo_py.png)
 
-The packges arriving from teh PC are simply printed out 
+The packges arriving from the PC are simply printed out 
 on the console.
 ![](./images/usbhid_demo_console.png)
 
