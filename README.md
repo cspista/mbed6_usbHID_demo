@@ -10,7 +10,7 @@ The program simply sends reports of 8 random bytes and accepts 8 byte
 messages from the PC as well. After each package received the state 
 of the builtin LED is toggled.
 
-##Note:
+## Note:
 The first parameter of the constructor of the USBHID class should 
 be a  **true** value (note that the order of parameter was different 
 in earlier Mbed OS versions)
